@@ -1,4 +1,4 @@
-name: Python Password Generator CI
+name: CI
 
 on:
   push:

@@ -1,11 +1,16 @@
 
-# Python-Password-Generator
+# Python Password Generator
+[![CI](https://github.com/KwadwoAsiamah/Python-Password-Generator/actions/workflows/ci.yml/badge.svg)](https://github.com/KwadwoAsiamah/Python-Password-Generator/actions/workflows/ci.yml)
+
 A Python script to generate secure passwords containing at least one uppercase letter, one digit, and one punctuation character.
 
 ## Usage
 The default and minimum password length is 8.
 
 ### Linux or macOS
+```
+$ python3 PythonPasswordGenerator.py
+```
 ```
 $ python3 PythonPasswordGenerator.py
 Password length? [8]
@@ -25,6 +30,9 @@ QuE9_(j038
 ```
 
 ### Windows
+```
+> python .\PythonPasswordGenerator.py
+```
 ```
 > python .\PythonPasswordGenerator.py
 Password length? [8]
